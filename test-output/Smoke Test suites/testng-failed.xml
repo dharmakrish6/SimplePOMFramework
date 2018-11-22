@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Test suites]">
+  <test thread-count="5" name="Login and Tab Test Cases(failed)">
+    <classes>
+      <class name="functionalTestCase.ValidateChannelTabTest">
+        <methods>
+          <include name="validateChannelPage"/>
+        </methods>
+      </class> <!-- functionalTestCase.ValidateChannelTabTest -->
+    </classes>
+  </test> <!-- Login and Tab Test Cases(failed) -->
+</suite> <!-- Failed suite [Smoke Test suites] -->
