@@ -27,11 +27,17 @@ public class ValidatePlayerFeature extends BasePage {
 		sPage=new ShowPage(driver);
 		sPage.playContent();
 		sleep(15000);
+		//We were not able to find the element because of DRM restriction, we used coordinates to interact with Elements
+		//Works fine only with Moto G3
+		//click on player
 		sPage.clickOnCordinates(355, 251);
 		sleep(2000);
+		//Click on playbutton
 		sPage.clickOnCordinates(355, 251);
+		//click on setting icon
 		sPage.clickOnCordinates(673, 105);
 		sleep(2000);
+		//click n low quality
 		sPage.clickOnCordinates(366, 936);
 		
 	}
