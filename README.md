@@ -1,3 +1,3 @@
 # SimplePOMFramework
-Simple POM framework with TestNG and Excel Data providers
+Simple Page object Modeling framework with TestNG and Excel Data providers
 
